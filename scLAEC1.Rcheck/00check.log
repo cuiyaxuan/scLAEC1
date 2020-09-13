@@ -1,0 +1,84 @@
+* using log directory 'D:/scLAEC1/scLAEC1.Rcheck'
+* using R version 4.0.2 (2020-06-22)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: CP936
+* using options '--no-manual --as-cran'
+* checking for file 'scLAEC1/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'scLAEC1' version '0.1.0'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking serialization versions ... OK
+* checking whether package 'scLAEC1' can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... NOTE
+unable to verify current time
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+* checking top-level files ... NOTE
+Non-standard files/directories found at top level:
+  'Biase3celltypes.txt' 'kolodziejczyk_0.txt'
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... WARNING
+'library' or 'require' calls not declared from:
+  'SNFtool' 'apcluster'
+'library' or 'require' calls in package code:
+  'SNFtool' 'apcluster'
+  Please use :: or requireNamespace() instead.
+  See section 'Suggested packages' in the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+result: no visible binding for global variable 'Express'
+select_features1: no visible binding for global variable 'sd'
+select_features1: no visible global function definition for
+  'standardNormalization'
+select_features1: no visible global function definition for 'dist2'
+select_features1: no visible global function definition for
+  'affinityMatrix'
+select_features1: no visible binding for global variable 'alpha'
+select_features1: no visible global function definition for 'apcluster'
+select_features1: no visible global function definition for
+  'negDistMat'
+select_features1: no visible global function definition for
+  'spectralClustering'
+select_features1: no visible global function definition for
+  'write.table'
+Undefined global functions or variables:
+  Express affinityMatrix alpha apcluster dist2 negDistMat sd
+  spectralClustering standardNormalization write.table
+Consider adding
+  importFrom("stats", "sd")
+  importFrom("utils", "write.table")
+to your NAMESPACE file.
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  'KNN_SMI' 'result' 'select_features1'
+All user-level objects in a package should have documentation entries.
+See chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking examples ... NONE
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 3 WARNINGs, 3 NOTEs
