@@ -56,7 +56,7 @@ b=as.vector(res)
 adjustedRandIndex(a,b)  
 
 
-##give two examples  
+## give two examples  
 #A local affinity enhancement clustering algorithm for cell typing using single-cell RNA-seq data.  
 #The program need to install parallel,SNFtool,apcluster package.  
 install.packages(parallel)  
